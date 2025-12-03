@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Berenang"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Berenang"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Berenang.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+
+        <activity
+            android:name=".FlightSearchActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+
+        <activity
+            android:name=".FlightResultsActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+
+        <activity
+            android:name=".PassengerDetailsActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+
+        <activity
+            android:name=".PaymentActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+
+        <activity
+            android:name=".BookingDetailActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+
+        <activity
+            android:name=".HotelSearchActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+
+        <activity
+            android:name=".HotelResultsActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+        <activity
+            android:name=".HotelDetailActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+        <activity
+            android:name=".HotelGuestDetailsActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+        <activity
+            android:name=".HotelPaymentActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+        <activity
+            android:name=".BookingDatabaseDetailActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+        <activity
+            android:name=".TrainSearchActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+        <activity
+            android:name=".TrainResultsActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+        <activity
+            android:name=".DestinationListActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+        <activity
+            android:name=".TrainPassengerActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+
+        <activity
+            android:name=".SearchActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+        <activity
+            android:name=".DetailActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+        <activity
+            android:name=".EventActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+        <activity
+            android:name=".EventDetailActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+        <activity
+            android:name=".BookingActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+        <activity
+            android:name=".CategoryListActivity"
+            android:theme="@style/Theme.Berenang.NoActionBar" />
+
+
+    </application>
+
+</manifest>

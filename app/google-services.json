@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1016399026015",
+    "project_id": "berenang",
+    "storage_bucket": "berenang.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016399026015:android:d27ed34a9c7753a78d88ea",
+        "android_client_info": {
+          "package_name": "com.example.berenang10"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJmZAU_52lRoYxPntZa493Jg_ihBvRVHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
