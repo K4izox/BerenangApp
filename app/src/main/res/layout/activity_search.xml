@@ -82,7 +82,8 @@
                     android:layout_height="24dp"
                     android:layout_marginStart="16dp"
                     android:layout_marginEnd="8dp"
-                    android:visibility="invisible" /> </LinearLayout>
+                    android:visibility="invisible" />
+            </LinearLayout>
 
         </androidx.appcompat.widget.Toolbar>
 
@@ -141,7 +142,9 @@
                 android:orientation="vertical"
                 android:layout_marginTop="24dp"
                 android:visibility="gone"
-                android:paddingStart="24dp"  android:paddingEnd="24dp"    tools:visibility="visible">
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                tools:visibility="visible">
 
                 <TextView
                     android:id="@+id/hotel_results_title"
@@ -152,14 +155,20 @@
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:paddingBottom="8dp"
-                    android:paddingStart="0dp"  android:paddingEnd="0dp"/>   <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/horizontal_hotel_results_recycler"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clipToPadding="false"
-                android:paddingStart="0dp"  android:paddingEnd="0dp"    tools:itemCount="3"
-                tools:listitem="@layout/item_hotel" />
+                    android:paddingStart="0dp"
+                    android:paddingEnd="0dp"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/horizontal_hotel_results_recycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="0dp"
+                    tools:itemCount="3"
+                    tools:listitem="@layout/item_hotel" />
             </LinearLayout>
+
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/see_all_button"
                 style="@style/Widget.MaterialComponents.Button.TextButton"
@@ -176,44 +185,6 @@
                 android:paddingEnd="32dp"
                 app:backgroundTint="#FFFFFF"
                 android:textAllCaps="false"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Get Whoosh high-speed train tickets!"
-                android:textColor="#1F2937"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:paddingStart="24dp"
-                android:paddingEnd="24dp"
-                android:paddingTop="32dp"
-                android:paddingBottom="16dp"/>
-
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/whoosh_card"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_marginStart="24dp"
-                android:layout_marginEnd="24dp"
-                app:cardCornerRadius="16dp"
-                app:cardElevation="4dp"
-                app:cardBackgroundColor="#F0F9FF"> <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop"
-                android:src="@drawable/placeholder_whoosh_banner"
-                android:contentDescription="Whoosh Banner Placeholder"/>
-            </com.google.android.material.card.MaterialCardView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Enjoy special promos only for t-mates."
-                android:textColor="#4B5563"
-                android:textSize="14sp"
-                android:paddingStart="24dp"
-                android:paddingEnd="24dp"
-                android:paddingTop="16dp"/>
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
