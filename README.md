@@ -23,6 +23,6 @@ A multi-service travel booking application supporting Flights, Hotels, Trains, E
 3. Wait for Gradle Sync to complete
 4. Run on an emulator or physical device (Shift + F10)
 
-##👥 Authors
+## 👥 Authors
 - Muhammad Ilham Maulana
 - Reza Fahlevi
