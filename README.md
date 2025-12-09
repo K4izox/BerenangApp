@@ -16,12 +16,22 @@ A multi-service travel booking application supporting Flights, Hotels, Trains, E
 - **Gradle Kotlin DSL (.kts)** for project configuration *(build scripts only — no Kotlin code used)*
 
 ## 🚀 How to Run
-1. Clone the repository:  
+### **Windows**
+1. Download the project ZIP from GitHub  
+   → Click **Code** → **Download ZIP**  
+2. Extract the ZIP file  
+3. Open **Android Studio** → **Open** → select the extracted project folder  
+4. Wait for **Gradle Sync** to complete  
+5. Run the app (Shift + F10)
+
+### **Linux**
+1. Clone the repository:
    ```bash
-   git clone https://github.com/K4izox/BerenangApp.gi
+   git clone https://github.com/K4izox/BerenangApp.git
+   cd BerenangApp
 2. Open the project in Android Studio
-3. Wait for Gradle Sync to complete
-4. Run on an emulator or physical device (Shift + F10)
+3. Allow Gradle Sync to complete
+4. Run the app (Shift + F10)
 
 ## 👥 Authors
 - Muhammad Ilham Maulana
